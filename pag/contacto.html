@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <header class="header" >
+        <div class="container"> 
+               <img src="../img/logo.png" width="350px"/>
+                <nav class="navigation"> 
+                        <ul>
+                            <li><a href="../index.html" target="_blank">Inicio</a></li>
+                            <li><a href="explorar.html" target="_blank">Explorar</a></li>
+                            <li><a href="servicios.html" target="_blank">Servicios</a></li>
+                            <li><a href="contacto.html" target="_blank">Contacto</a></li>
+                            <li><a href="reservas.html" target="_blank">
+                                <button name="btn-reservar" type="button" class="my-button">Reservar</button></a></li>
+                        </ul>                      
+                </nav>
+        </div>
+    </header>
+
+
+    <!--Mapa-->
+
+  
+    <section>
+            <div class="row-center">
+                    <div class="mapouter"><div class="gmap_canvas"><iframe width="820" height="560" id="gmap_canvas"
+                    src="https://maps.google.com/maps?q=Costanera.+Gaspar+Hern%C3%A1ndez+-+Rio+San+Juan%2C+Km+18.+Rep%C3%BAblica+Dominicana&t=&z=13&ie=UTF8&iwloc=&output=embed" 
+                    frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.analarmclock.com/">online 
+                    alarm clock</a><br><a href="https://online.stopwatch-timer.net/"></a><br><style>.mapouter{position: relative;
+                    text-align: right;height: 560px;width: 820px;}</style><a href="https://www.mapembed.net">insert google map html</a><style>.gmap_canvas{overflow: hidden;background: none !important;
+                    height: 560px;width: 820px;}</style></div></div>
+            </div>
+    </section>
+<br><br>
+    <!--Formulario-->
+
+    <section >
+        <div class="row-center">
+            <div class="">
+                <h2>Formulario de contacto</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur, eum! Aliquid iste quis voluptate veniam, eos soluta vero reprehenderit rem earum saepe excepturi, expedita cum. Pariatur laudantium asperiores fugit facilis.</p>
+            </div>
+        </div>
+        <div class="row-center">
+            <div class="iconos">
+                <div><img class="" src="../img/contacto.png" /></div>
+                <div>123-456-789</div>
+            </div>
+            <div class="iconos">
+                <div><img class="" src="../img/mail.png" /></div>
+                <div>correo@servidor.com</div>
+            </div>
+        </div>
+   </section>
+
+    <br><br>
+   <section class="contenedor" style="background-color: rgb(196, 197, 191);">
+        <div id="after_submit">
+                <form id="contact_form" action="#" method="POST" enctype="multipart/form-data" class="form">
+                <br><br>
+                <div>
+                    <label class="h3" for="name">Nombre y apellido:</label><br />
+                    <input id="name" class="input" name="name" type="text" value="" size="50" placeholder="Ingrese aquí su nombre"/><br />
+                    <span id="name_validation" class="error_message"></span>
+                <br />
+        
+                <div>
+                    <label class="h3" for="email">Correo electrónico:</label><br />
+                    <input id="email" class="input" name="email" type="text" value="" size="50" placeholder="Ingrese aquí su correo"/><br />
+                    <span id="email_validation" class="error_message"></span>
+                </div>
+                <br />
+
+                <div>
+                    <label class="h3" for="email">Asunto:</label><br />
+                    <input id="email" class="input" name="email" type="text" value="" size="50" placeholder="Ingrese el asunto de la consulta"/><br />
+                    <span id="asunto_validation" class="error_message"></span>
+                </div>
+                <br />
+
+                <div >
+                    <label class="h3" for="message">Mensaje:</label><br />
+                    <textarea id="message" class="input" name="message" rows="7" cols="50"></textarea><br />
+                    <span id="message_validation" class="error_message"></span>
+                </div>
+                <br />
+                    <input id="submit_button" type="submit" class="my-button" value="Enviar mensaje"/>
+                </form>
+                <br><br>
+         </div>    
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+
+
+<br><br>
+
+<section>
+    <footer>
+        <div class="container">
+            <div class="row row-cols-3">
+              <div class="col"><hr></div>
+              <div class="col">
+                <div style="text-align: center;"><h3>Seguinos en nuestras redes</h3></div>
+              </div>
+              <div class="col"><hr></div>
+              <div class="col"></div>
+              <div class="col">
+                <div style="text-align: center;">
+                    <img class="" src="../img/iconos/square-whatsapp.svg" width="40px" >
+                    <img class="" src="../img/iconos/facebook.svg" width="40px" >
+                    <img class="" src="../img/iconos/instagram.svg" width="40px" >
+                    <img class="" src="../img/iconos/twiter.svg" width="40px" >
+                    <img class="" src="../img/iconos/youtube.svg" width="40px" >
+                </div>
+              </div>
+              <div class="col"></div>
+            </div>
+        </div>
+
+        <br><br>
+
+        <div style="text-align: center;">
+            <div>
+                <a href="pag/contacto.html" target="_blank">
+                <button name="btn-contacto" type="button" class="my-button">Contacto</button></a>
+            </div>
+            <br><br>
+            <div style="text-align: center;">
+                <p>Domicilio: Calle 999<br>
+                Provincia - País - Teléfono</p>
+            </div>
+
+            <hr width="100%"> 
+            <p>Copyright 2024©</p>
+        </div>
+    </footer>
+</section>
+
+</html>
+
